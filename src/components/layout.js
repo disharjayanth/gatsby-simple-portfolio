@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 const ListLink = (props) => (
-  <li className="ml-2 sm:ml-4">
+  <li className="ml-1 sm:ml-4">
     <Link to={props.to}>{props.linkName}</Link>
   </li>
 )
@@ -10,9 +10,9 @@ const ListLink = (props) => (
 export default function Layout() {
   return (
     <div>
-      <div className="flex justify-between mx-5 md:mx-10 my-5 md:my-10">
+      <div className="flex justify-between mx-4 md:mx-10 my-5 md:my-10">
         <div>
-          <Link className="font-bold text-lg sm:text-xl uppercase" to="/">
+          <Link className="font-bold text-sm sm:text-xl uppercase" to="/">
             Dishar Jayantha
           </Link>
         </div>
