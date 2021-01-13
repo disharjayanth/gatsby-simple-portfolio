@@ -29,7 +29,9 @@ export default function Index() {
       clearInterval(intervalId)
       // console.log('Interval id is cleared')
     }
-  }, [counter, skills])
+    // No need to add counter.current as depend because re-render is because of each 1s interval
+    // Also counter.current value is consistent accrosss each re-render
+  }, [skills])
 
   return (
     <div>
