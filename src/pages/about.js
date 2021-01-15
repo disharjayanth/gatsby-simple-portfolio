@@ -5,6 +5,7 @@ export default function About() {
   return (
     <div>
       <Layout />
+      <title>About</title>
       <div className="mx-1 md:mx-10 px-4 md:px-10">
         <h2 className="font-semibold text-5xl">Web developer</h2>
         <h4 className="font-semibold text-2xl pt-2">Languages:</h4>
