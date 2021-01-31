@@ -12,7 +12,7 @@ export default function Contact() {
           disharjayantha@gmail.com
         </p>
         <p className="font-medium text-xl md:text-2xl pt-2">
-          disharjayantha@protonmain.com
+          disharjayantha@protonmail.com
         </p>
         <p className="font-medium text-xl md:text-2xl pt-2">
           https://github.com/disharjayanth
