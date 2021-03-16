@@ -41,7 +41,7 @@ export default function Index() {
         <div className="my-60 h-auto w-3/4 text-center">
           <p className="font-bold text-5xl md:text-7xl">Dishar Jayantha</p>
           <div className="mr-1 mb-1 md:mr-2 md:mb-2 inline-block h-2 w-2 bg-black rounded "></div>
-          <p className="inline font-bold text-2xl md:text-4xl">{skill}</p>
+          <p className="inline font-normal text-2xl md:text-4xl">{skill}</p>
           <div className="ml-1 mb-1 md:ml-2 md:mb-2 inline-block h-2 w-2 bg-black rounded"></div>
         </div>
       </div>
