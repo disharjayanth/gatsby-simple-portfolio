@@ -18,7 +18,7 @@ export default function Index() {
     const intervalId = setInterval(() => {
       // console.log('counter.current incremented', counter.current)
       counter.current++
-      if (counter.current >= 5) {
+      if (counter.current >= skills.length) {
         counter.current = 0
         // console.log('counter.current is 0')
       }
