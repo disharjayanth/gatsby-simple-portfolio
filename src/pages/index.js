@@ -9,6 +9,7 @@ export default function Index() {
     'Backend Developer',
     'Full Stack Developer',
     'FreeLancer',
+    'Blockchain Developer',
   ]
 
   const [skill, setSkill] = useState('FreeLancer')
