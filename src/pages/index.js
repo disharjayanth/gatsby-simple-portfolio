@@ -8,7 +8,6 @@ export default function Index() {
     'Frontend Developer',
     'Backend Developer',
     'Full Stack Developer',
-    'FreeLancer',
     'Blockchain Developer',
   ]
 
