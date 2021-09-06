@@ -11,7 +11,7 @@ export default function Index() {
     'Blockchain Developer',
   ]
 
-  const [skill, setSkill] = useState('FreeLancer')
+  const [skill, setSkill] = useState(skills[0])
 
   useEffect(() => {
     const intervalId = setInterval(() => {
